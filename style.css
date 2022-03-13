@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+    height: 100vh;
+}
+
+.button-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(53, 75, 196);
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 12em;
+    border-radius: 10px;
+}
+
+.left,
+.right {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.slidingPart {
+    position: absolute;
+    height: 100%;
+    background-color: skyblue;
+    width: 50%;
+    left: 0%;
+    border-radius: 10px;
+    transition: .6s ease-in;
+    outline: none;
+}
+
+.slide {
+    left: 50%;
+}
